@@ -1,0 +1,3 @@
+﻿id,scene,slot,ingame,mode,rework,source,raw,deliver,local,count,mb,status
+main/cg,主线,主线/插画,主线剧情演出里全屏出现的大图（CG）。,direct,,intl · core · bg_main_*,PNG（已还原）,PNG 原图,10_用户层/12_剧情插画/插画HD/主线,428,1923.35,已入库
+main/story,主线,主线/剧情文本,主线剧情里的人物对白、旁白、选项。,direct,lss → 纯文本/XLSX（已处理）,cn · saus · Locale_MainScenario,lss（SQLite）,文本 / XLSX,20_开发层/22_文本库/剧情正文/主线,655,1.75,已入库
