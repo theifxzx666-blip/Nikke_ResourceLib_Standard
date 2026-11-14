@@ -1,0 +1,14 @@
+# 锁死行尾，避免整文件假 diff。曾因未锁导致三份 md 出现 5,607 行假 diff，真实改动仅 111 行。
+* text=auto
+
+*.md    text eol=lf
+*.py    text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+
+# Windows 侧工具读这两个更省心
+*.csv   text eol=crlf
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
